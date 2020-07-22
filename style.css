@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.category-heading{
+    text-align: center;
+    margin: 2rem;
+    font-size: 35px;
+    font-family: Ruda;
+}
+.category{
+    display: flex; 
+    justify-content: space-between;
+    font-family: Ruda;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    width: 930px;
+    box-shadow: inset -4px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+}
+.all a{
+    color: #FFBB0B;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 30px;
+}
+.category-links a{
+   margin-left: 5rem;
+   color: black;
+   font-size: 18px;
+   line-height: 30px;
+   text-decoration: none;
+   cursor: pointer;
+}
+.category-links a:hover{
+    color: #FFBB0B;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.food-container{
+    margin-bottom: 2rem;
+}
+.food-img{
+    width: 350px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.stars{
+    color: #FFBB0B;
+    line-height: 20px;
+}
+.food-name{
+    font-size: 27px;
+    line-height: 20px;
+    color: #FFBB0B;
+    font-family: Risque;
+}
+.store{
+    font-size: 18px;
+    font-family: Ruda;
+    line-height: 20px;
+}
+.price{
+    font-size: 30px;
+    font-family: Rationale;
+    line-height: 20px;
+}
+.details{
+    width: 112px;
+    height: 37px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 30px;
+    color: #FFBB0B;
+    background-color: white;
+    font-family: Rosarivo;
+    border: 1.5px solid #FFBB0B;
+}
+.cart{
+    font-size: 18px;
+    width: 130px;
+    height: 42px;
+    border-radius: 30px;
+    color: white;
+    background-color: #FFBB0B;
+    font-family: Rosarivo;
+    border: 1.5px solid #FFBB0B;
+}
+#restaurants{
+    background-color: #f5c956;
+    padding-bottom: 3rem;
+}
+
+.popular{
+    font-size: 30px;
+    font-family: Rosario;
+    text-align: center;
+    padding:1rem 0 3rem 0;
+}
+.restaurants{
+    margin-bottom: 30px;
+}
+.restaurant-img{
+    width: 350px;
+}
+.shop{
+    height: 64px;
+    width: 350px;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    z-index: 1;
+    top: -68px;
+    margin-bottom: -68px;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+.shop-btn{
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #FFBB0B;
+    color:  #FFBB0B;
+    background: transparent;
+    font-size: 25px;
+    font-family: Rosarivo;
+    
+}
+.spot{
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 18px;
+
+    font-family: Rosarivo;
+    color: white;
+}
+.address{
+    font-family: Roboto Slab;
+    color: white;
+    margin-top: 8px;
+}
+.likes p{
+    font-family: Rosario;
+    font-size: 24px;
+    
+}
+.likes span{
+    color: red;
+}
+.choose{
+    font-size: 36px;
+    font-family: Rosarivo;
+    text-align: center;
+    padding: 2rem;
+}
+.step-container{
+    display: flex;
+}
+.image,.text{
+    width: 50%;
+}
+.text{
+    padding:  2rem 0 2rem 2rem;
+}
+
+.person-img{
+    width: 100%;
+    height: auto;
+}
+.flex-step{
+    display: flex;
+}
+.line{
+    height: 90px;
+    width: 1px;
+    border: 1px solid #FFBB0B;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid #f5c956;
+    background-color: #f5c956;
+    
+    margin-left: -11px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+}
+.step-text{
+    font-size: 22px;
+    font-family: Shojumaru;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.step-img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+    top: -30px;
+    margin-bottom: -65px;
+
+}
+.joint{
+    width: 300px;
+    height: 640px;
+    margin: 10rem 10rem 0 0 ;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+}
+
+.joint p{
+    width: 300px;
+    height: 80px;
+    color: #f5c956;
+    font-size: 30px;
+    font-family: Risque;
+    border-top: 1px solid black;
+    text-align: center;
+    line-height: 80px;
+    background: #FFFFFF;
+
+}
+#most{
+    color: #86362c;
+    border-top: none;
+}
+#ratings{
+    display: flex;
+    padding: 5rem 3rem 3rem 0;
+}
+#ratings .price{
+   margin-top: 15px;
+}
+.head-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    background: #282621;
+    border-bottom: 1px solid black;
+}
+.footer-logo{
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #FFBB0B;
+}
+.sign-up{
+    display: flex;
+    line-height: 50px;
+}
+.sign{
+    font-size: 18px;
+    font-family: Saira;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.email{
+    padding: 10px;
+    width: 200px;
+    font-family: Saira;
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+    background: rgba(81, 67, 66, 0.3);
+    border: 1px solid #000000;
+}
+.email::placeholder{
+    font-size: 18px;
+}
+.sign-btn{
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Saira;
+    background: rgba(85, 62, 59, 0.27);
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.sign-btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 1rem 3rem;
+    background: #282621;
+    border-bottom: 1px solid black;
+}
+.logo{
+    width: 40%;
+    margin-top: 2rem;
+}
+.logo .footer-logo{
+    padding: 0 1rem;
+}
+.lorem-text{
+    /* width: 512px; */
+    font-family: Saira;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+.feedback{
+    display: flex;
+    margin-top: 10px;
+}
+.feedback p{
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: Rosario;
+}
+.feedback textarea{
+    font-size: 18px;
+    font-family: Rosario;
+    height: 130px;
+}
+.more,.pages,.socials{
+    width: 20%;
+    margin-top: 1rem;
+}
+.more p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Saira;
+    color: white;
+    margin-bottom: 20px;
+}
+.more a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-family: Saira;
+}
+.pages p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Saira;
+    color: white;
+    margin-bottom: 25px;
+}
+.pages a{
+    display: flex;
+    justify-content: center;
+    color: #494949;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-family: Saira;
+}
+.socials p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Saira;
+    margin-bottom: 30px;
+}
+.social-items{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+   
+}
+.social-img{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+.social-items a{
+    color: #494949;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: Rosarivo;
+}
+.last{
+    padding: 1rem 3rem;
+    background: #282621; 
+    font-size: 25px;
+    font-family: Rosario;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width:770px){
+.category{
+    width: 90%;
+    display: flex;
+}
+.all a{
+    font-size: 24px;
+    line-height: 20px;
+}
+.category-links a{
+   margin-left: 2rem;
+   font-size: 16px;
+   line-height: 25px;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.food-img,.restaurant-img,.shop{
+    width: 250px;
+
+}
+.details{
+    width: 100px;
+    font-size: 16px;
+}
+.cart{
+    font-size: 16px;
+    width: 130px;
+}
+.spot{
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 16px;
+}
+.address{
+    font-size: 14px;
+}
+.likes p{
+    margin-top: 5px;
+    font-size: 16px;
+    
+}
+.joint{
+    width: 300px;
+    height: 640px;
+    margin: 2rem 0 ;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+}
+
+.step-container{
+    display: block;
+}
+.image,.text{
+    width: 100%;
+}
+.choose{
+    font-size: 30px;
+    padding: 2rem 0;
+}
+#ratings{
+    display: block;
+    padding: 0;
+}
+.head-footer{
+    display: block;
+    padding: 1rem 1rem 2rem 1rem;
+}
+.sign-up{
+    display: block;
+    
+}
+.sign{
+    line-height: 24px;
+}
+.email{
+    margin:10px 10px 10px 0  ;
+    width: 180px;
+   
+}
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    /* justify-content: center; */
+}
+.logo,.more,.pages,.socials{
+    width: 50%;
+}
+.logo .footer-logo{
+    padding: 0;
+}
+.footer-logo{
+    margin-top: 2rem;
+}
+.logo{
+    margin-top: auto;
+}
+.last{
+    text-align: center;
+}
+
+
+}
+@media screen and (max-width:500px){
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2rem;
+}
+.logo,.more,.pages,.socials{
+    width: 100%;
+}
+.text{
+    padding:  1rem 0 1rem 1rem;
+}
+.line{
+    height: 60px;
+    width: 1px;
+    border: 1px solid #FFBB0B;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left:-8px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+}
+.step-text{
+    font-size: 12px;
+    font-family: Shojumaru;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.step-img{
+    width: 70px;
+    height: 70px;
+    top: -20px;
+}
+
+
+
+
+
+}
