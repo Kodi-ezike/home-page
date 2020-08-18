@@ -1,0 +1,305 @@
+body {margin: 0;
+      padding: 0;
+}
+
+/* Styling of the first section - header/section */
+.first {height: 100px;
+        background-color: #F5C956;
+}
+.first .part_one h2 {font-size: 48px;
+                     line-height: 100px;
+}
+.first .part_three button {margin: 40px 0 0 30px;
+}
+.first .part_three button:nth-child(1) {border-radius: 20px;
+                                        background-color: #F5C956;
+                                        border: 2px solid white;
+                                        width: 90px;
+                                        height: 35px;
+                                        font-size: 18px;
+                                        color: white;
+}
+.first .part_three button:nth-child(1):hover {border-radius: 20px;
+                                              background-color: white;
+                                              color: #F5C956;
+                                              border: 2px solid white;
+}
+.first .part_three button:nth-child(2) {border-radius: 20px;
+                                        background-color: white;
+                                        border: 2px solid #F5C956;
+                                        width: 90px;
+                                        height: 35px;
+                                        font-size: 18px;
+                                        color: #F5C956;
+}
+.first .part_three button:nth-child(2):hover {background-color: #F5C956;
+                                              border: 2px solid white;
+                                              color: white;
+}
+
+/* Styling of the second section - nav */
+.second {height: 100px;
+         border-bottom: 2px solid #F5C956;
+}
+.second .part_one ul {display: flex;
+                      margin-left: 00px;
+}
+.second .part_one ul li {list-style: none;
+                         font-size: 20px;
+                         margin: 20px 0 0 30px;
+                         color: #F5C956;
+                         line-height: 50px;
+}
+.second .part_one ul li:nth-child(1) {margin-left: 0;
+}
+.second .part_two input {border-radius: 30px;
+                         border: 1px solid #F5C956;
+                         height: 45px;
+                         width: 300px;
+                         margin: 25px 0 0 -50px;
+                         padding-left: 20px;
+}
+.second .part_three span:nth-child(1) {font-size: 36px;
+                                       opacity: .8;
+}
+.second .part_three {margin-top: 25px;
+}
+.second .part_three span:nth-child(2) {font-size: 24px;
+                                       color: red;
+                                       position: absolute;
+                                       top: -7px;
+                                       left: 30px;
+                                       font-weight: bold;
+}
+.third {background-image: url(../home-page/images/Component\ 1.png);
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.third h1 {font-size: 64px;
+           color: white;
+           text-align: center;
+           padding-top: 150px;
+}
+.third h1 span {font-size: 96px;
+                color: #F5C956;
+}
+.fourth .section1, .fourth .section2 {height: 30px;
+                                    width: 4px;
+                                    background-color: #F5C956;
+                                    border-radius: 50px;
+}
+.fourth .section1 {transform: rotateZ(45deg);
+}
+.fourth .section2 {transform: rotateZ(-60deg);
+}
+.fourth .cancelSection {display: none;
+}
+.fourth .container h1 {text-align: center;
+                       margin: 30px 0;
+}
+.fourth .part .thumbnail img {width: 350px;
+                              height: 300px;
+}
+.fourth .part .caption .capSect1 {display: flex;
+                                  font-size: 20px;
+                                  justify-content: space-between;                                                                                           margin-bottom: -10px;
+}
+.fourth .part .caption .capSect2 {display: flex;
+                                  justify-content: space-between;
+                                  font-size: 18px;
+                                  color: chartreuse;
+                                  margin-bottom: -7px;
+}
+.fourth .part .caption .capSect3 {text-align: center;
+}
+.fourth .part .caption .capSect3 button {border: 2px solid #F5C956;
+                                         color: #F5C956;
+                                         background-color: white;
+                                         border-radius: 50px;
+                                         padding: 3px 10px;
+                                         transition: .5s;
+}
+.fourth .part .caption .capSect3 button:hover {border: none;
+                                               color: white;
+                                               background-color: #F5C956;
+}
+.checked {color: #F5C956;
+}
+.unchecked {color: white;
+}
+
+.fifth {margin: 30px 0 30px 0;
+}
+.fifth .part_one img:nth-child(1) {transform: rotate(45deg);
+                                   margin-left: 250px;
+}
+.fifth .part_one img:nth-child(2) {transform: rotate(1deg);
+                                   margin-left: -400px;
+}
+.fifth .part_two {margin: 100px 0 0 0;
+                  padding-left: 100px;
+}
+.fifth .part_two img {height: 130px;
+                      width: 380px;
+}
+.sixth h2 {text-align: center;
+}
+.sixth .slider-div .slide img {margin-left: 450px;
+                              border-radius: 50%;
+                              width: 200px;
+                              height: 200px;                           
+}
+.sixth .slider-div .slide h3 {text-align: center;
+                              color: black;
+                              font-family: cursive;
+                              display: block;
+}
+.sixth .slider-div .slide h3 span {display: block;
+                                   font-size: 16px;
+                                   color: #777;
+                                   font-weight: 400;
+                                   font-style: italic;
+                                   margin-top: 5px;
+}
+.sixth .slider-div .slide .theQuotes {font-style: italic;
+                                      text-align: center;
+                                      margin-top: 5px;
+                                      color: #F5C956;
+}
+.sixth .slider-div .slide .theQuotes h4 {font-size: 30px;
+}
+.sixth .slider-div {overflow: hidden;
+width: 100%;
+height: 300px;
+}
+.sixth .slider-div figure {position: relative;
+ width: 500%;
+ margin: 0;
+ left: 0;
+ animation: testSlide 20s infinite;
+}
+.sixth .slider-div figure .slide {width: 20%;
+        float: left;
+}
+@keyframes testSlide {
+0% {
+margin-left: 0%;
+}
+20% {
+margin-left: 0%;
+}
+25% {
+margin-left: -100%;
+}
+45% {
+margin-left: -100%;
+}
+50% {
+margin-left: -200%;
+}
+70% {
+margin-left: -200%;
+}
+75% {
+margin-left: -300%;
+}
+95% {
+margin-left: -300%;
+}
+100% {
+margin-left: -400%;
+}   
+}
+
+@media (max-width: 725px) { 
+      .first {height: 70px;
+      }
+      .first .part_one h2 {font-size: 24px;
+            line-height: 70px;
+      }
+      .first .part_three button {margin: 0;
+      }
+      .first .part_three button:nth-child(1) {width: 70px;
+                                              height: 30px;
+                                              font-size: 12px;
+                                              margin: 22px 0 0 -50px;
+      }
+      .first .part_three button:nth-child(2) {width: 70px;
+                                              height: 30px;
+                                              font-size: 12px;
+      }
+
+      .second {height: 70px;
+      }
+      .second .part_one ul li {font-size: 12px;
+      }
+      .second .part_two input {height: 35px;
+                               width: 150px;
+                               margin: 0;
+                               padding-left: 0;
+      }
+      .third {height: 50vh;
+      }
+      .third h1 {font-size: 30px;
+                 padding-top: 70px;
+      }
+      .third h1 span {font-size: 42px;
+      }
+      /* .fourth {position: fixed;
+               bottom: 0;
+               z-index: 10;
+               background-color: #F5C956;
+      } */
+      .fourth .container h1 {font-size: 24px;
+      }
+      .fourth .part .thumbnail img {width: 100px;
+                                    height: 100px;
+      }
+      .fourth .part .caption .capSect1 {font-size: 10px;
+                                        line-height: 12px;
+      }
+      .fourth .part .caption .capSect1 p:nth-child(2) {margin-right: -5px;
+                                                       text-align: right;
+      }
+      .fourth .part .caption .capSect2 {font-size: 10px;
+                                        margin-bottom: -10px;
+      }
+      .fourth .part .caption .capSect2:nth-child(2) {margin-right: -5px;
+      }
+      .fourth .part .caption .capSect3 button {padding: 2px 7px;
+                                               font-size: 10px;
+                                               border: 1px solid #F5C956;
+      }
+      .fifth .part_one img {height: 200px;
+                            width: 100px;
+      }
+      .fifth .part_one img:nth-child(1) {margin-left: 80px;
+                                        transform: rotate(35deg);
+      }
+      .fifth .part_one img:nth-child(2) {transform: rotate(1deg);
+                                         margin-left: -180px;
+      }
+      .fifth .part_two {margin: 100px 0 0 0;
+                        padding-left: 100px;
+      }
+      .fifth .part_two img {height: 40px;
+                            width: 120px;
+      }
+      .fifth .part_two {margin: 80px 0 0 0;
+                        padding-left: 50px;
+      }
+      .sixth .slider-div .slide img {margin-left: 470px;
+                                     width: 100px;
+                                     height: 100px;                           
+      }
+      .sixth .slider-div .slide h3 {font-size: 14px;
+      }
+      .sixth .slider-div .slide h3 span {font-size: 12px;
+      }
+      .sixth .slider-div .slide .theQuotes h4 {font-size: 18px;
+      }
+}
