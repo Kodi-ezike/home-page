@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderEat</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" media="screen">
+    <link rel="icon" href="./images/favicon.jpg" type="image/jpg">
+    <script src="https://kit.fontawesome.com/c0bb1150f1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rationale&family=Risque&family=Roboto&family=Roboto+Slab&family=Rosario&family=Rosarivo&family=Ruda&family=Saira&family=Shojumaru&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a onclick="closeNav()" class="close" id="close" href="javascript:;">
+            <i class="fas fa-times"></i>
+        </a>
+        <a onclick="openNav()" id="open" class="open" href="javascript:;">
+            <i id="open-bar" class="fas fa-bars"></i>
+        </a>
+        <div class="menu-container">
+            <div class="menu" id="links"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </div>
+        </div>
+        <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input id="search-input" type="text" placeholder="Search...">
+        
+    </div>
+    <i id="shopping-cart" class="fas fa-shopping-cart"></i>
+    </nav>
+    <script src="./index.js"></script>
+</body>
+</html>
